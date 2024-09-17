@@ -6,7 +6,7 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 from alembic import context
 from app.core.db_helper import URL_DATABASE_ASYNC
 from app.models.base import Base
-from app.models import parcels  # noqa
+from app.models import user  # noqa
 
 
 # this is the Alembic Config object, which provides
